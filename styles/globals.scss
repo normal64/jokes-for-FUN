@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+#__next{
+  min-height: 100vh;
+  position: relative;
+}
 html,
 body {
   padding: 0;

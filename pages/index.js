@@ -9,6 +9,7 @@ export default function Home(props) {
   const [rerender, setRerender] = useState(false)
   //console.log(`homwprops`, props);
  // console.log(`sharedState`, sharedState);
+
   return (
     <Layout>
       <SegmentA setSharedState={setSharedState} setRerender={setRerender} rerender={rerender}/>
