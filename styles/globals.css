@@ -1,9 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 a {
@@ -12,7 +12,8 @@ a {
 }
 
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -24,3 +25,122 @@ a {
     background: black;
   }
 }
+
+header {
+  color: #e24c41;
+  min-height: 8em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 0.5em;
+}
+
+.segmentA {
+  background: #f6f7f9;
+  min-height: 4em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0.5em;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.segmentA .getjoke {
+  font-size: 26px;
+}
+
+.segmentA .getjoke {
+  background: #E24C41;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.segmentA .getjoke:hover {
+  cursor: pointer;
+}
+
+.segmentA div {
+  padding: .5em;
+}
+
+.segmentB {
+  background: #f6f7f9;
+  padding-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  /* justify-content: space-around; */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 400px;
+}
+
+.segmentB h1:first-child {
+  font-size: 20px;
+}
+
+.segmentB .joke-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0.8em;
+  padding-bottom: 5em;
+}
+
+.segmentB .joke-container h2 {
+  font-size: 26px;
+}
+
+.segmentB .joke-container h1 {
+  font-size: 38px;
+}
+
+footer {
+  background: #2a2a2a;
+  position: absolute;
+  width: 100%;
+  height: 5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.5em;
+  bottom: 0;
+}
+
+footer a {
+  color: #67518A;
+  font-size: 20px;
+}
+/*# sourceMappingURL=globals.css.map */
